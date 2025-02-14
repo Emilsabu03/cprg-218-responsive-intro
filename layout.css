@@ -8,6 +8,11 @@ div#container{
     grid-template-rows: auto 1fr auto;
     gap: 2rem;
 }
+#desktop{
+    background-color: rgb(175, 93, 175);
+    color:rgb(255, 111, 0);
+    padding: 1rem;
+}
 
 header{
     grid-area: top;
@@ -40,4 +45,10 @@ footer{
         grid-template-columns: 1fr;
     }    
 }
+
+#desktop{
+    display: none;
+}
+
+
 
